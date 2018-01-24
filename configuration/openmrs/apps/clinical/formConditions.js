@@ -31,7 +31,7 @@ Bahmni.ConceptSet.FormConditions.rules = {
         var sections = {
             "show": [],
             "hide": []
-        }
+        };
 
         if (patientAge < 1) {
             return {
@@ -57,7 +57,7 @@ Bahmni.ConceptSet.FormConditions.rules = {
         var sections = {
             "show": [],
             "hide": []
-        }
+        };
 
         if (patientAge < 1) {
             return {
@@ -83,7 +83,7 @@ Bahmni.ConceptSet.FormConditions.rules = {
         var sections = {
             "show": [],
             "hide": []
-        }
+        };
 
         if (patientAge < 1) {
             return {
@@ -109,7 +109,7 @@ Bahmni.ConceptSet.FormConditions.rules = {
         var sections = {
             "show": [],
             "hide": []
-        }
+        };
 
         if (!fieldValue || fieldValue.length == 0) {
             sections.hide.push("Cambodia_Past Medical History Details")
@@ -123,7 +123,7 @@ Bahmni.ConceptSet.FormConditions.rules = {
             sections.hide.push("Cambodia_Past Cancer Details");
         }
 
-        return sections
+        return sections;
     },
     'Cambodia_BCG' : function (formName, formFieldValues, patient) {
         var fieldValue = formFieldValues['Cambodia_BCG'];
@@ -390,7 +390,8 @@ Bahmni.ConceptSet.FormConditions.rules = {
         var sections = {
             "show": [],
             "hide": []
-        }
+
+        };
 
         if (fieldValue && fieldValue.indexOf('Cambodia_Pulses') > -1) {
             sections.show.push("Cambodia_Pulses Intensity")
@@ -404,7 +405,7 @@ Bahmni.ConceptSet.FormConditions.rules = {
             sections.hide.push("Cambodia_Edema Severity");
         }
 
-        return sections
+        return sections;
     },
     'Cambodia_Genitourinary Female Symptoms' : function (formName, formFieldValues, patient) {
         var fieldValue = formFieldValues['Cambodia_Genitourinary Female Symptoms'];
@@ -414,11 +415,11 @@ Bahmni.ConceptSet.FormConditions.rules = {
             "hide": []
         };
         if (patientGender == 'M') {
-            sections.hide.push("Cambodia_Genitourinary Female Symptoms")
-            sections.hide.push("Cambodia_Genitourinary Female Exam Abnormalities")
+            sections.hide.push("Cambodia_Genitourinary Female Symptoms");
+            sections.hide.push("Cambodia_Genitourinary Female Exam Abnormalities");
         } else if (patientGender == 'F') {
-            sections.hide.push("Cambodia_Genitourinary Male Symptoms")
-            sections.hide.push("Cambodia_Genitourinary Male Exam Abnormalities")
+            sections.hide.push("Cambodia_Genitourinary Male Symptoms");
+            sections.hide.push("Cambodia_Genitourinary Male Exam Abnormalities");
         } 
         return sections
     }
