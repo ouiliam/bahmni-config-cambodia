@@ -85,14 +85,14 @@
                 "showDetailsButton": true,
                 "showCertainty":true,
                 "showOrder":true,
-                "displayOrder":10
+                "displayOrder":15
             },
             "offlineDiagnosis":{
                 "translationKey":"IMPL_OFFLINEDIAGNOSIS",
                 "type":"observation",
                 "isObservation": true,
                 "showDetailsButton": true,
-                "displayOrder":11,
+                "displayOrder":20,
                 "dashboardConfig": {
                     "showDetailsButton": true,
                     "showGroupDateTime": true,
@@ -113,7 +113,7 @@
                 "translationKey":"CONDITION_LIST_DISPLAY_CONTROL_TITLE",
                 "type": "conditionsList",
                 "showDetailsButton": true,
-                "displayOrder": 15
+                "displayOrder": 10
             },
             "examination":{
                 "type":"forms",
@@ -133,19 +133,18 @@
                        "Cambodia_Consultation Form"
                     ],
                     "pivotTable":{
-                        "numberOfVisits":"5",
                         "groupBy":"encounters",
                         "obsConcepts":[
                             "Cambodia_Consultation Form"
                             ]
                     }
                 },
-                "displayOrder":20,
+                "displayOrder":85,
                 "translationKey":"DASHBOARD_TITLE_HISTORY_AND_EXAMINATIONS_KEY"
             },
             "customControl": {
                 "type": "custom",
-                "displayOrder": 40,
+                "displayOrder": 13,
                 "showDetailsButton": true,
                 "config": {
                     "showDetailsButton": true,
@@ -213,7 +212,7 @@
                         "Cambodia_Allergies"
                     ]
                 },
-                "displayOrder":80,
+                "displayOrder":11,
                 "translationKey":"IMPL_ALLERGIES"
             },
             "history": {
@@ -296,7 +295,15 @@
                         "Cambodia_Offline Medication"
                     ]
                 },
-
+                "expandedViewConfig":{
+                    "showDetailsButton": true,
+                    "showGroupDateTime":false,
+                    "conceptNames":[
+                        "Cambodia_Offline Medication"
+                    ],
+                    "pivotTable":{
+                    }
+                },
                 "translationKey": "IMPL_OFFLINEMED"
             },
             "chemOrders":{
@@ -304,7 +311,7 @@
                 "type":"ordersControl",
                 "orderType":"Chemistry Order",
                 "showDetailsButton": true,
-                "displayOrder":102,
+                "displayOrder":202,
                 "dashboardConfig":{
                     "conceptNames":[
                         "Chemistry Order Fulfillment Form"
@@ -323,7 +330,7 @@
                 "type":"ordersControl",
                 "orderType": "Lab Order",
                 "showDetailsButton": true,
-                "displayOrder":104,
+                "displayOrder":245,
                 "dashboardConfig":{
                     "conceptNames":[
                         "Lab Order Fulfillment Form"
@@ -342,7 +349,7 @@
                 "type":"ordersControl",
                 "orderType": "Hematology Order",
                 "showDetailsButton": true,
-                "displayOrder":112,
+                "displayOrder":252,
                 "dashboardConfig":{
                     "conceptNames":[
                         "Hematology Order Fulfillment Form"
@@ -361,7 +368,7 @@
                 "type":"ordersControl",
                 "orderType": "Microbiology Order",
                 "showDetailsButton": true,
-                "displayOrder":115,
+                "displayOrder":204,
                 "dashboardConfig":{
                     "conceptNames":[
                         "Microbiology Order Fulfillment Form"
@@ -376,7 +383,7 @@
                 }
             },
             "radioOrders": {
-                "displayOrder":114,
+                "displayOrder":154,
                 "orderType": "Radiology Order",
                 "type": "ordersControl",
                 "translationKey": "DASHBOARD_TITLE_RADIOLOGY_KEY",
@@ -397,7 +404,7 @@
                 }
             },
             "patientDocs": {
-                "displayOrder": 85,
+                "displayOrder": 18,
                 "type":"historyAndExamination",
                 "isObservation":true,
                 "displayType":"Half-Page",
@@ -484,17 +491,6 @@
                 },
                 "translationKey": "IMPL_REFERRALS"
             },
-            "visits":{
-                "translationKey":"DASHBOARD_TITLE_VISITS_KEY",
-                "type":"visits",
-                "displayOrder":111,
-                "showDetailsButton": true,
-                "dashboardConfig":{
-                    "title":null,
-                    "maximumNoOfVisits":5,
-                    "groupByVisits":true
-                }
-            },
             "bpPulse":{
                 "type":"observationGraph",
                 "title":"BP / Pulse",
@@ -506,9 +502,9 @@
                         "Cambodia_Pulse"
                     ],
                     "xAxisConcept":"observationDateTime",
-                    "numberOfVisits":10
+                    "numberOfVisits":15
                 },
-                "displayOrder":120
+                "displayOrder":150
             },
             "weightBMI":{
                 "type":"observationGraph",
@@ -520,9 +516,9 @@
                         "BMI"
                     ],
                     "xAxisConcept":"observationDateTime",
-                    "numberOfVisits":10
+                    "numberOfVisits":15
                 },
-                "displayOrder":140
+                "displayOrder":152
             },
             "growthChart":{
                 "type":"observationGraph",
@@ -533,14 +529,14 @@
                         "BMI"
                     ],
                     "referenceData":"growthChartReference.csv",
-                    "numberOfVisits":10
+                    "numberOfVisits":15
                 },
-                "displayOrder":150
+                "displayOrder":145
             },
             "testsInClinic":{
                 "type":"observationGraph",
                 "title":"Glucose",
-                "translationKey": "IMPL_TESTS_IN_CLINIC",
+                "translationKey": "IMPL_TESTS_IN_CLINIC_CHART",
                 "config":{
                     "yAxisConcepts":[
                         "Cambodia_Fasting Blood Glucose",
@@ -548,9 +544,9 @@
                         "Cambodia_pH"
                     ],
                     "xAxisConcept":"observationDateTime",
-                    "numberOfVisits":10
+                    "numberOfVisits":15
                 },
-                "displayOrder":145
+                "displayOrder":140
             }
 
         }

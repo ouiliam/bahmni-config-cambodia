@@ -25,6 +25,7 @@
     "IMPL_BP_PULSE":"BP / Pulse",
     "IMPL_GROWTH_CHART":"Growth Chart",
     "IMPL_TESTS_IN_CLINIC":"Tests in Clinic",
+    "IMPL_TESTS_IN_CLINIC_CHART":"Glucose, pH Chart",
     "IMPL_WEIGHT_BMI":"Weight / BMI",
     "IMPL_OFFLINEMED": "Offline Medication",
     "IMPL_OFFLINEDIAGNOSIS": "Offline Diagnosis",
