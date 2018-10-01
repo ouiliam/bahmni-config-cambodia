@@ -97,19 +97,19 @@
                     "showDetailsButton": true,
                     "showGroupDateTime": true,
                     "conceptNames": [
-                        "Offline Diagnosis Entry"
+                        "Offline Diagnosis", "Offline Diagnosis Entry"
                     ]
                 },
                 "expandedViewConfig":{
                     "showDetailsButton": true,
                     "showGroupDateTime": false,
                     "conceptNames":[
-                      "Offline Diagnosis Entry"
+                      "Offline Diagnosis", "Offline Diagnosis Entry"
                    ],
                     "pivotTable":{
                         "groupBy":"encounters",
                         "obsConcepts":[
-                            "Offline Diagnosis Entry"
+                            "Offline Diagnosis", "Offline Diagnosis Entry"
                         ]
                     }
                 }
