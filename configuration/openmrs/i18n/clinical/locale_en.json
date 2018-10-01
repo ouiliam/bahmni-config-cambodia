@@ -49,7 +49,7 @@
     "DASHBOARD_TITLE_PROGRAMS_KEY": "Programs",
     "DASHBOARD_TITLE_TREATMENTS_KEY": "Medications",
     "DASHBOARD_TITLE_DISPOSITION_KEY": "Disposition",
-    "DASHBOARD_TITLE_DIAGNOSIS_KEY": "Diagnosis (Primary:new case, Secondary:old case)",
+    "DASHBOARD_TITLE_DIAGNOSIS_KEY": "Diagnosis (Primary: new case/Secondary: old case)",
     "DASHBOARD_TITLE_ADMISSION_DETAILS_KEY": "Admission Details",
     "DASHBOARD_TITLE_NUTRITIONAL_VALUES_KEY": "Nutritional Values",
     "DASHBOARD_TITLE_SECOND_VITALS_KEY": "Second Vitals",

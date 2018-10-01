@@ -97,15 +97,20 @@
                     "showDetailsButton": true,
                     "showGroupDateTime": true,
                     "conceptNames": [
-                        "Offline Diagnosis Entry","Non-coded Offline Diagnosis"
+                        "Offline Diagnosis Entry"
                     ]
                 },
                 "expandedViewConfig":{
                     "showDetailsButton": true,
+                    "showGroupDateTime": false,
                     "conceptNames":[
-                      "Offline Diagnosis Entry", "Non-coded Offline Diagnosis"
+                      "Offline Diagnosis Entry"
                    ],
                     "pivotTable":{
+                        "groupBy":"encounters",
+                        "obsConcepts":[
+                            "Offline Diagnosis Entry"
+                        ]
                     }
                 }
             },
@@ -207,7 +212,7 @@
                 "displayType":"Half-Page",
                 "dashboardConfig":{
                     "showDetailsButton": true,
-                    "showGroupDateTime":false,
+                    "showGroupDateTime": false,
                     "conceptNames":[
                         "Cambodia_Allergies"
                     ]
@@ -222,14 +227,15 @@
                 "hideEmptyDisplayControl": false,
                 "dashboardConfig": {
                     "showDetailsButton": true,
-                    "numberOfVisits": 5,
+                    "showGroupDateTime": false,
+                    "numberOfVisits": 10,
                     "conceptNames": [
                         "Cambodia_History Form"
                     ]
                 },
                 "expandedViewConfig":{
                     "showDetailsButton": true,
-                    "showGroupDateTime":false,
+                    "showGroupDateTime": true,
                     "conceptNames":[
                         "Cambodia_History Form"
                     ],
@@ -259,7 +265,6 @@
                     "showOtherActive":true
                 }
             },
-
             "labTest": {
                 "type": "forms",
                 "isObservation":true,
@@ -302,6 +307,10 @@
                         "Cambodia_Offline Medication"
                     ],
                     "pivotTable":{
+                        "groupBy":"encounters",
+                        "obsConcepts":[
+                            "Cambodia_Offline Medication"
+                        ]
                     }
                 },
                 "translationKey": "IMPL_OFFLINEMED"

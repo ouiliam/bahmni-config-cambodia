@@ -564,7 +564,7 @@
           "allowFutureDates": true
         },
         "Offline Diagnosis Data": {
-            "answersConceptName":"Offline Diagnosis",
+            "answersConceptName":"Offline Misc Diagnosis",
             "autocomplete":  true
         },        
         "Offline Diagnosis Entry": {
