@@ -63,7 +63,7 @@
             "report":{
                 "type": "observations",
                 "config": {
-                    "conceptNamesToFilter":["Coded Diagnosis", "Offline Diagnosis", "Offline Misc Diagnosis"],
+                    "conceptNamesToFilter":["Coded Diagnosis", "Offline Diagnosis"],
                     "conceptNameDisplayFormat": "shortNamePreferred",
                     "ignoreEmptyValues":true,
                     "ageGroupName": "Adult Child"
@@ -83,7 +83,7 @@
             "report":{
                 "type": "observations",
                 "config": {
-                    "conceptNamesToFilter":["Coded Diagnosis", "Offline Diagnosis", "Offline Misc Diagnosis" ],
+                    "conceptNamesToFilter":["Coded Diagnosis", "Offline Diagnosis"],
                     "conceptNameDisplayFormat": "shortNamePreferred",
                     "ignoreEmptyValues":true,
                     "ageGroupName": "hc1"
@@ -106,7 +106,7 @@
             "conceptNamesToFilter": ["Coded Diagnosis", "Diagnosis Certainty", "Diagnosis order", "Offline Diagnosis Entry"],
             "conceptValuesToFilter":[""],
             "conceptClassesToFilter": [],
-            "preferredColumns": ["Visit Start Date","Location Name","Coded Diagnosis", "Diagnosis Certainty", "Diagnosis order", "Offline Misc Diagnosis","Non-coded Offline Diagnosis","Offline Diagnosis Certainty", "Offline Diagnosis order", "Age", "Gender", "familyNameLocal","givenNameLocal","Patient Name", "Provider", "Adult Child" ],
+            "preferredColumns": ["Visit Start Date","Location Name","Coded Diagnosis", "Diagnosis Certainty", "Diagnosis order", "Offline Diagnosis","Non-coded Offline Diagnosis","Offline Diagnosis Certainty", "Offline Diagnosis order", "Age", "Gender", "familyNameLocal","givenNameLocal","Patient Name", "Provider", "Adult Child" ],
             "sortBy" : [{"column" : "Location Name", "sortOrder" : "asc"}],
             "encounterPerRow": true,
             "additionalPatientIdentifiers": ["impl.legacyId"],
@@ -121,7 +121,7 @@
             "report":{
                 "type": "observations",
                 "config": {
-                    "conceptNamesToFilter":["Cambodia_ANC Visit Number","Coded Diagnosis","Non-coded Diagnosis", "Offline Diagnosis" , "Offline Misc Diagnosis","Non-coded Offline Diagnosis","Cambodia_New Immunization","Cambodia_ANC Referral","Cambodia_Acceptor"],
+                    "conceptNamesToFilter":["Cambodia_ANC Visit Number","Coded Diagnosis","Non-coded Diagnosis", "Offline Diagnosis" , "Offline Diagnosis","Non-coded Offline Diagnosis","Cambodia_New Immunization","Cambodia_ANC Referral","Cambodia_Acceptor"],
                     "conceptValuesToFilter": ["Cambodia_ANC Visit 1","Cambodia_ANC Visit 2","Cambodia_ANC Visit 3","Cambodia_ANC Visit 4",
                         "Cambodia_HIV","Cambodia_Postpartum",
                         "True","False",
@@ -161,7 +161,7 @@
             "conceptValuesToFilter":[],
             "conceptClassesToFilter": [],
             "ageGroupName": "Adult Child",
-            "preferredColumns": ["Visit Start Date","Location Name","Chief Complaint", "Cambodia_Chief Complaint", "Coded Diagnosis", "Diagnosis Certainty", "Diagnosis order", "Offline Diagnosis", "Offline Misc Diagnosis", "Non-coded Offline Diagnosis","Offline Diagnosis Certainty", "Offline Diagnosis order", "Cambodia_Offline Medication", "Age", "Gender", "Adult Child","Patient Identifier", "impl.legacyId", "familyNameLocal","givenNameLocal","Patient Name", "Provider", "Adult Child" ],
+            "preferredColumns": ["Visit Start Date","Location Name","Chief Complaint", "Cambodia_Chief Complaint", "Coded Diagnosis", "Diagnosis Certainty", "Diagnosis order", "Offline Diagnosis", "Non-coded Offline Diagnosis","Offline Diagnosis Certainty", "Offline Diagnosis order", "Cambodia_Offline Medication", "Age", "Gender", "Adult Child","Patient Identifier", "impl.legacyId", "familyNameLocal","givenNameLocal","Patient Name", "Provider", "Adult Child" ],
             "sortBy" : [{"column" : "Visit Start Date", "sortOrder" : "asc"}],
             "encounterPerRow": true,
             "additionalPatientIdentifiers": ["impl.legacyId"],
@@ -180,7 +180,7 @@
             "conceptValuesToFilter":[],
             "conceptClassesToFilter": [],
             "ageGroupName": "Adult Child",
-            "preferredColumns": ["Visit Start Date","Location Name","Chief Complaint", "Cambodia_Chief Complaint", "Coded Diagnosis", "Diagnosis Certainty", "Diagnosis order", "Offline Diagnosis", "Offline Misc Diagnosis", "Non-coded Offline Diagnosis","Offline Diagnosis Certainty", "Offline Diagnosis order", "Cambodia_Offline Medication", "Age", "Gender", "Adult Child","Patient Identifier", "impl.legacyId", "familyNameLocal","givenNameLocal","Patient Name", "Provider", "Adult Child" ],
+            "preferredColumns": ["Visit Start Date","Location Name","Chief Complaint", "Cambodia_Chief Complaint", "Coded Diagnosis", "Diagnosis Certainty", "Diagnosis order", "Offline Diagnosis", "Non-coded Offline Diagnosis","Offline Diagnosis Certainty", "Offline Diagnosis order", "Cambodia_Offline Medication", "Age", "Gender", "Adult Child","Patient Identifier", "impl.legacyId", "familyNameLocal","givenNameLocal","Patient Name", "Provider", "Adult Child" ],
             "sortBy" : [{"column" : "Age", "sortOrder" : "asc"}],
             "encounterPerRow": true,
             "additionalPatientIdentifiers": ["impl.legacyId"],
@@ -199,7 +199,7 @@
             "conceptValuesToFilter":[],
             "conceptClassesToFilter": [],
             "ageGroupName": "Adult Child",
-            "preferredColumns": ["Visit Start Date","Location Name","Chief Complaint", "Cambodia_Chief Complaint", "Coded Diagnosis", "Diagnosis Certainty", "Diagnosis order", "Offline Diagnosis", "Offline Misc Diagnosis", "Non-coded Offline Diagnosis","Offline Diagnosis Certainty", "Offline Diagnosis order", "Cambodia_Offline Medication", "Age", "Gender", "Adult Child","Patient Identifier", "impl.legacyId", "familyNameLocal","givenNameLocal","Patient Name", "Provider", "Adult Child" ],
+            "preferredColumns": ["Visit Start Date","Location Name","Chief Complaint", "Cambodia_Chief Complaint", "Coded Diagnosis", "Diagnosis Certainty", "Diagnosis order", "Offline Diagnosis", "Non-coded Offline Diagnosis","Offline Diagnosis Certainty", "Offline Diagnosis order", "Cambodia_Offline Medication", "Age", "Gender", "Adult Child","Patient Identifier", "impl.legacyId", "familyNameLocal","givenNameLocal","Patient Name", "Provider", "Adult Child" ],
             "sortBy" : [{"column" : "Location Name", "sortOrder" : "asc"}],
             "encounterPerRow": true,
             "additionalPatientIdentifiers": ["impl.legacyId"],

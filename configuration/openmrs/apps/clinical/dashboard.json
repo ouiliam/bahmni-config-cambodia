@@ -69,12 +69,6 @@
                             "WeighT",
                             "BMI Data",
                             "BMI Status Data"
-                        ],
-                        "drugConcepts":[
-
-                        ],
-                        "labConcepts":[
-
                         ]
                     }
                 }
@@ -97,19 +91,19 @@
                     "showDetailsButton": true,
                     "showGroupDateTime": true,
                     "conceptNames": [
-                        "Offline Diagnosis", "Offline Diagnosis Entry"
+                        "Offline Diagnosis Entry"
                     ]
                 },
                 "expandedViewConfig":{
                     "showDetailsButton": true,
                     "showGroupDateTime": false,
                     "conceptNames":[
-                      "Offline Diagnosis", "Offline Diagnosis Entry"
+                      "Offline Diagnosis Entry"
                    ],
                     "pivotTable":{
                         "groupBy":"encounters",
                         "obsConcepts":[
-                            "Offline Diagnosis", "Offline Diagnosis Entry"
+                            "Offline Diagnosis Entry"
                         ]
                     }
                 }
@@ -128,19 +122,19 @@
                     "showGroupDateTime":true,
                     "showDetailsButton": true,
                     "conceptNames":[
-                        "Cambodia_Consultation Form"
+                        "Cambodia_Consultation Form", "Cambodia_Consultation Form Offline"
                     ]
                 },
                 "expandedViewConfig":{
                     "showGroupDateTime":false,
                     "showDetailsButton": true,
                     "conceptNames":[
-                       "Cambodia_Consultation Form"
+                       "Cambodia_Consultation Form", "Cambodia_Consultation Form Offline"
                     ],
                     "pivotTable":{
                         "groupBy":"encounters",
                         "obsConcepts":[
-                            "Cambodia_Consultation Form"
+                            "Cambodia_Consultation Form", "Cambodia_Consultation Form Offline"
                             ]
                     }
                 },
@@ -489,13 +483,13 @@
                 "translationKey": "DASHBOARD_TITLE_GYNAECOLOGY_KEY"
             },
             "referral": {
-                "type": "vitals",
+                "type": "forms",
                 "isObservation":true,
                 "displayOrder": 117,
                 "hideEmptyDisplayControl": false,
                 "dashboardConfig": {
                     "showDetailsButton": true,
-                    "conceptNames": [ "Cambodia_Referred To", "Cambodia_Referral Notes", "Cambodia_Referred From"],
+                    "conceptNames": [ "Cambodia_Referral Form"],
                     "scope":"latest"
                 },
                 "translationKey": "IMPL_REFERRALS"
